@@ -19,6 +19,9 @@ var obj = {},
 	param,
 	arr = [1,2,3];
 
-console.log(obj.name);
-console.log(param);
-console.log(arr[7]);
+//все выведет undefined
+console.log(obj.name); //нет такого свойства
+console.log(param); //переменная не определена
+console.log(arr[7]); //нет такого индекса
+
+//Null появляется только тогда, когда мы сами прописали ручками null
